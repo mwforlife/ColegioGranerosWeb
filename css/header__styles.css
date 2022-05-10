@@ -1,3 +1,9 @@
+:root{
+    --bg-hover:#E16045;
+    --bg-white:#fff;
+    --text-white: #fff;
+}
+
 .header{
     width: 100%;
 }
@@ -41,7 +47,6 @@
     width: 40px;
     height: 40px;
 }
-
 .object__link{
     padding: 10px;
     color: #fff;
@@ -54,6 +59,10 @@
     align-items: center;
     border-radius: 4px;
     font-weight: 700;
+}
+
+.object__link--movil{
+    display: none;
 }
 
 .object__link:hover{
@@ -97,6 +106,59 @@ color: #E83C19;
 .header__menu--link:hover{
     color: #E83C19;
 }
+
+.submenu--items{
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    background-color: var(--bg-hover);
+    display: none;
+}
+
+.submenu--item{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.submenu--link{
+    color: var(--text-white);
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.submenu--item:hover, .submenu--link:hover{
+    color: var(--text-white);
+    background-color: red;
+}
+
+.header__menu--item:hover > .submenu--items{
+    display: block;
+}
+.menu__splot{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splot__button{
+    border: none;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-hover);
+    padding: 0;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+}
+
+.splot__button img{
+    width: 32px;
+    height: 32px;
+}
+
 /***********************************************************/
 /********************Slider************************/
 .slider{
@@ -184,6 +246,54 @@ color: #E83C19;
     display: flex;
     justify-content: flex-start;
     width: 150px;
+}
+
+@media screen and (max-width: 830px){
+    .splot__button{
+        display: flex;
+    }
+    
+    .header{
+        height: auto;
+    }
+    .headerInfo{
+        justify-content: space-between;
+    }
+    .headerInfo__content{
+        display: none;
+    }
+    
+    .header__menu{
+        height: auto;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .header__menu--items{
+        flex-direction: column;
+        text-align: left;
+        height: auto;
+        padding: 2px;
+        gap:0.9em;
+        display: flex;
+        align-items: flex-start;
+    }
+    
+    .header__menu--item{
+        text-align: left;
+        justify-content: flex-start;
+        text-align: left;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .submenu--items{
+        position: relative;
+        margin-left: 30px;
+    }
+    
+    .object__link--movil{
+        display: flex;
+    }
+    
 }
 
 
