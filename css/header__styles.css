@@ -210,6 +210,10 @@ color: #E83C19;
     font-size: 17px;
     border: none;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }
 
 .slider__team{
@@ -219,6 +223,25 @@ color: #E83C19;
     background-color: #fff;
     border:none;
     border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #E16045;
+}
+
+.slider__contact:hover{
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #fff;
+    color: #E16045;
+}
+
+.slider__team:hover{
+    background-color: #E16045;
+    color: #fff;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 
 /*About*/

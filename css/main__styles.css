@@ -1,0 +1,16 @@
+/*Adminision*/
+.admision{
+    margin-bottom: 40px;
+}
+.admision .col-md-4{
+    min-width: 400px !important;
+}
+/*Illustracion*/
+.illustration{
+    width: 200px;
+}
+
+.row{
+    gap: 2em;
+    column-gap: 0em;
+}
