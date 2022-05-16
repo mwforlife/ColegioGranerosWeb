@@ -89,3 +89,10 @@ link varchar(200) not null,
 id_tip int not null references tipoContenido(id_tip),
 fecha date not null
 );
+
+create table comunicados(
+id_com int not null auto_increment,
+titulo varchar(40) not null,
+descripcion varchar(200) not null,
+fechaHora datetime not null
+);
