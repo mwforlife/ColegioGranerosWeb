@@ -19,11 +19,14 @@
 .our-team .pic{
     border-top: 5px solid #ff8e72;
     border-bottom: 5px solid #ff8e72;
-    border-radius: 50% 50% 50% 0;
+    border-radius: 50% 50% 50% 50%;
     overflow: hidden;
     transition: all 0.5s ease 0s;
     width: 300px;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .our.team .pic img{
@@ -37,6 +40,8 @@
     width: 300px;
     height: auto;
     transition: all 0.5s ease 0s;
+    border-radius: 50%;
+    
 }
 .our-team .team-content{ padding: 20px 0; }
 .our-team .title{

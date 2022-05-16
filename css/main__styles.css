@@ -4,6 +4,11 @@
 }
 .admision .col-md-4{
     min-width: 400px !important;
+    padding: 10px;
+    border: 10px solid var(--bg-hover);
+    border-radius: 5px;
+    margin: 2px;
+    border-style:outset;
 }
 /*Illustracion*/
 .illustration{

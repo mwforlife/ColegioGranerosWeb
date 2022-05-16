@@ -286,12 +286,21 @@ color: #E83C19;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .footer__text{
     color: #fff;
 }
 
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.footer a:hover{
+    color: var(--bg-hover);
+}
 @media screen and (max-width: 830px){
     .splot__button{
         display: flex;
