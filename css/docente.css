@@ -77,6 +77,7 @@
     background: #8f2d56;
     color: #fff;
 }
+
 @media only screen and (max-width: 990px){
     .our-team{ margin-bottom: 30px; }
 }
