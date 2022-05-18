@@ -24,9 +24,6 @@
     transition: all 0.5s ease 0s;
     width: 300px;
     height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .our.team .pic img{
@@ -40,7 +37,6 @@
     width: 300px;
     height: auto;
     transition: all 0.5s ease 0s;
-    border-radius: 50%;
     
 }
 .our-team .team-content{ padding: 20px 0; }

@@ -34,4 +34,23 @@
 
 .contact-text a{
     color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-text a:hover{
+    color: #8f2d56;
+    text-decoration: none;
+}
+
+#form-contact label{
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+#form-contact input{
+    padding-left: 32px;
 }
