@@ -15,7 +15,8 @@ apellido varchar(60) not null,
 correo varchar(60) not null,
 contraseña varchar(64) not null,
 token varchar(64) not null,
-fecha timestamp not null
+fecha timestamp not null,
+perfil varchar(30) not null
 );
 
 insert into usuario values(null, 'Wilkens', 'Mompoint','informatica2020.cg@gmail.com',sha1('21chichi'),sha1('mwforlife24@gmail.com'),null);
@@ -91,8 +92,15 @@ fecha date not null
 );
 
 create table comunicados(
-id_com int not null auto_increment,
+id_com int not null auto_increment primary key,
 titulo varchar(40) not null,
 descripcion varchar(200) not null,
-fechaHora datetime not null
+fechaHora datetime not null,
+comunicado_text varchar(1000) not null
 );
+
+create table cursos(
+id_cur int not null auto_increment primary key,
+nombre int not null
+);
+
