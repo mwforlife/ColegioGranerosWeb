@@ -260,7 +260,18 @@
                                 <label for="">Telefono:</label>
                                 <input type="number" placeholder="Ingrese el numero de telefono" class="form-control">
                             </div>
-
+                            
+                            <div class="col-md-12">
+                                <label for="">Foto:</label>
+                                <input type="file" name="foto" id="foto" class="form-control">
+                            </div>
+                            
+                            <div class="row justify-content-center">
+                                <div class="col-md-4 text-center">
+                                    <img style="width: 150px; height: 150px; border-radius: 50%" id="previa" src="https://via.placeholder.com/150" alt=""><br>
+                                    <span>Vista Previa</span>
+                                </div>
+                            </div>
                         </div>
             </div>
             <div class="modal-footer">
@@ -793,6 +804,7 @@
     <script src="../js/favicons.js"></script>
     <script src="../js/MooTools-Core-1.6.0.js"></script>
     <script src="../js/sweetalert2.all.min.js"></script>
+    <script src="../js/cmsprocess.js"></script>
     <!---------
     
     ID Modal CMS
