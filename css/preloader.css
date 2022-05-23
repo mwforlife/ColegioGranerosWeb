@@ -1,0 +1,46 @@
+.preloader{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+	background: radial-gradient(circle at -16% -16%, hotpink, slateblue);
+    opacity: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+    overflow: hidden;
+}
+
+.preloader__img{
+    width: 200px;
+}
+
+.subpreloader{
+    width: 100px;
+    height: 100px;
+    border: 7px solid hotpink;
+    border-radius: 50%;
+    border-right: none;
+    border-top: none;
+    animation: girar linear 2s infinite;
+    border-style: ;
+}
+
+.preloader__text{
+    color: #fff;
+    font-size: 18px;
+    font-style: oblique;
+    font-weight: 600
+}
+
+
+@keyframes girar{
+    from{
+        transform: rotate(0deg);
+    }
+    
+    to{
+        transform: rotate(360deg);
+    }
+}

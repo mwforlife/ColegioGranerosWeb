@@ -11,8 +11,20 @@
     <link rel="stylesheet" href="css/main__styles.css">
     <link rel="stylesheet" href="css/header__styles.css">
     <link rel="icon" type="icon" href="img/logo/log.png">
+    <link rel="stylesheet" href="css/preloader.css">
 </head>
-<body>
+<body style="width: 100%;">
+<!--------------------Preloader---------------------->
+ <div class="preloader">
+    <img src="img/logo/log.png" alt="" class="preloader__img">
+     <div class="subpreloader">
+         
+     </div>
+     <p class="preloader__text">Procesando........</p>
+ </div>
+ <!------------------------------------------------------->
+ 
+ <!--------------------Content Begin---------------------------------->
   <div class="content__principal">
    <!----------Header------------->
     <header class="header">
@@ -200,16 +212,17 @@
            background-attachment:fixed;">
             <div class="contact__content container" style="padding: 20px;">
                 <div class="row justify-content-center gap-4 flex-row-reverse">
+                   <h1 class="text-center">Contactanos</h1>
                     <div class="col-md-12 col-lg-4">
                        <form action="" method="post" id="form-contact" name="form-contact">
                             <label for="Nombre Completo">Nombre Completo:</label>
-                            <input type="text" placeholder="Ingrese su nombre Completo" class="form-control" name="name">
+                            <input type="text" placeholder="Ingrese su nombre Completo" class="form-control name" name="name" id="name">
                             <label for="Correo Electronico">Correo Electronico:</label>
-                            <input type="email" name="email" placeholder="Ingrese su correo electronico" class="form-control">
+                            <input type="email" id="email" name="email" placeholder="Ingrese su correo electronico" class="form-control email">
                             <label for="">Numero de telefono:</label>
-                            <input type="number" name="phone" placeholder="Ejemplo: 912345678" class="form-control">
+                            <input type="number" id="phone" name="phone" placeholder="Ejemplo: 912345678" class="form-control phone">
                             <label for="">Mensaje:</label>
-                            <textarea name="mensaje" class="form-control" id="" cols="30" rows="10"></textarea>
+                            <textarea id="mensaje" name="mensaje" class="form-control mensaje" id="" cols="30" rows="10"></textarea>
                             <button type="submit" class="btn btn-secondary btn-lg btn-block align-self-end float-end">Enviar</button>
                         </form>
                     </div>
@@ -259,11 +272,18 @@
         <p class="footer__text">Copyright &copy Fundación Colegio Graneros - Chile</p>
         <a href="">Iniciar Sesión</a>
     </footer>
+    
+    
+    <button class="top object__link">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+    
     <script src="js/jquery-3.6.0.js"></script>
     <script src="js/MooTools-Core-1.6.0.js"></script>
     <script src="js/bootstrap.bundle.js"></script>
     <script src="js/sweetalert2.all.min.js"></script>
     <script src="js/anime.min.js"></script>
+    <script src="js/preloader.js"></script>
     <script src="js/main__query.js"></script>
     <script src="js/favicons.js"></script>
 </body>

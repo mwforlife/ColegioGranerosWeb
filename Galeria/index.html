@@ -2,9 +2,226 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="author" content="Wilkens Mompoint">
+    <meta name="keywords" content="Fotos Colegio Graneros">
+    <meta name="keywords" content="Colegio Graneros - Galeria">
+    <title>Colegio Graneros - Galeria</title>
+    <link rel="icon" href="../img/logo/log.png">
+    <link rel="stylesheet" href="../css/preloader.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/header__styles.css">
 </head>
 <body>
+<!--------------------Preloader---------------------->
+ <div class="preloader">
+    <img src="../img/logo/log.png" alt="" class="preloader__img">
+     <div class="subpreloader">
+         
+     </div>
+     <p class="preloader__text">Procesando........</p>
+ </div>
+ <!------------------------------------------------------->
+  <header class="header">
+        <!---------Header Info------------>
+        <div class="headerInfo">
+            <div class="headerInfo__logo">
+                <figure class="headerInfo__picture">
+                    <img src="../img/logo/log.png" alt="" class="headerInfo__img">
+                </figure>
+            </div>
+            <div class="headerInfo__content">
+                <div class="headerInfo__content__object">
+                    <img src="../img/svg_icons/phone.svg" alt="" class="object__img">
+                    <p class="object__text">
+                        <a href="tel:722471665" class="object__text--link">722471665</a> 
+                        <a href="tel:722472581" class="object__text--link">722472581</a><br>
+                        <a href="mailto:colegiograneros@gmail.com" class="object__text--link">colegiograneros@gmail.com</a>
+                    </p>
+                </div>
+                
+                <div class="headerInfo__content__object">
+                    <img src="../img/svg_icons/map.svg" alt="" class="object__img">
+                    <p class="object__text">
+                        Santa Elena 176<br>
+                        Graneros, Chile
+                    </p>
+                </div>
+                
+                
+                <div class="headerInfo__content__object">
+                    <img src="../img/svg_icons/time.svg" alt="" class="object__img">
+                    <p class="object__text">
+                        08:00 - 17:00<br>
+                        Lunes a Viernes
+                    </p>
+                </div>
+                
+                
+                <div class="headerInfo__content__object">
+                    <p>
+                    <a href="#" class="object__link">WebMail</a>
+                    </p>
+                </div>
+            </div>
+            
+        <div class="menu__splot">
+            <a class="splot__button" href="#"><img src="../img/svg_icons/menu.svg"></a>
+        </div>
+        </div>
+        
+        <div class="header__menu">
+            <ul class="header__menu--items">
+                <li class="header__menu--item"><a href="#" class="header__menu--link">Inicio</a></li>
+                
+                <li class="header__menu--item"><a href="#" class="header__menu--link">Equipo</a>
+                    <ul class="submenu--items">
+                        <li class="submenu--item"><a href="Equipo-Directivo/" class="submenu--link">Equipo Directivo</a></li>
+                        <li class="submenu--item"><a href="Coordinadores-academicos/" class="submenu--link">Coordinadores Academicos</a></li>
+                        <li class="submenu--item"><a href="Cuerpo-Docente/" class="submenu--link">Cuerpo Docente PLOC</a></li>
+                        <li class="submenu--item"><a href="Profesores-de-Asignaturas/" class="submenu--link">Profesores de Asignatura</a></li>
+                        <li class="submenu--item"><a href="PIE/" class="submenu--link">Equipo Programa de Integracion (PIE)</a></li>
+                    </ul>
+                </li>
+                
+                <li class="header__menu--item"><a href="#" class="header__menu--link">Galería</a></li>
+                
+                <li class="header__menu--item"><a href="" class="header__menu--link">Documentos</a>
+                <ul class="submenu--items">
+                        <li class="submenu--item"><a href="#" class="submenu--link">Comunicados 2022</a></li>
+                        <li class="submenu--item"><a href="#" class="submenu--link">Comunicados 2021</a></li>
+                        <li class="submenu--item"><a href="#" class="submenu--link">Reglamento Becas 2022</a></li>
+                        <li class="submenu--item"><a href="#" class="submenu--link">Reglamento de Evaluación 2022</a></li>
+                        <li class="submenu--item"><a href="#" class="submenu--link">Reglamento Convivencia Escolar</a></li>
+                    </ul>
+                </li>
+                
+                <li class="header__menu--item"><a href="" class="header__menu--link">Escuela</a></li>
+                
+                <li class="header__menu--item"><a href="" class="header__menu--link">Comunicados</a>
+                <ul class="submenu--items">
+                        <li class="submenu--item"><a href="#" class="submenu--link">Teced</a></li>
+                        <li class="submenu--item"><a href="#" class="submenu--link">Aula Virtual</a></li>
+                    </ul>
+                </li>
+                
+                <li class="header__menu--item"><a href="" class="header__menu--link">Retorno a Clases</a>
+                <ul class="submenu--items">
+                        <li class="submenu--item"><a href="#" class="submenu--link">Protocolo Medidas Sanitarias 2022</a></li>
+                        <li class="submenu--item"><a href="#" class="submenu--link">Manual Retorno a Clases 2022</a></li>
+                        <li class="submenu--item"><a href="#" class="submenu--link">Párvulo</a></li>
+                        <li class="submenu--item"><a href="#" class="submenu--link">Básica y Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#" class="object__link object__link--movil">WebMail</a>
+        </div>
+        
+    </header>
     
+ <!----------------------Content-------------------------------->
+ <div class="container galery">
+     <div class="galery__content galery__content--image">
+        <div class="row justify-content-center">
+         <div class="col-md-10 text-center">
+             <h1 class="galery__title">Galeria Colegio graneros</h1>
+             <p class="galery__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatem, qui culpa ullam pariatur praesentium distinctio repellendus. Similique inventore minus deserunt animi mollitia minima, labore, quidem dolorum qui nobis facere?</p>
+         </div>
+        </div>
+        <div class="galery__images row justify-content-center gap-2">
+             <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                 <img onclick="cargar(1)" type="button" data-bs-toggle="modal" data-bs-target="#modalimage" src="../img/Docentes/img-1.jpg" alt="" class="galery__img">
+             </div>
+             
+             <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                 <img onclick="cargar(1)" type="button" data-bs-toggle="modal" data-bs-target="#modalimage" src="../img/Docentes/img-1.jpg" alt="" class="galery__img">
+             </div>
+             
+             <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                 <img onclick="cargar(1)" type="button" data-bs-toggle="modal" data-bs-target="#modalimage" src="../img/Docentes/img-1.jpg" alt="" class="galery__img">
+             </div>
+             <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                 <img onclick="cargar(1)" type="button" data-bs-toggle="modal" data-bs-target="#modalimage" src="../img/Docentes/img-1.jpg" alt="" class="galery__img">
+             </div>
+             <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                 <img onclick="cargar(1)" type="button" data-bs-toggle="modal" data-bs-target="#modalimage" src="../img/Docentes/img-1.jpg" alt="" class="galery__img">
+             </div>
+             
+             <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                 <img onclick="cargar(1)" type="button" data-bs-toggle="modal" data-bs-target="#modalimage" src="../img/Docentes/img-1.jpg" alt="" class="galery__img">
+             </div>
+             
+             
+             
+             
+         </div>
+     </div>
+     
+     <div class="galery__content galery__content--video">
+        <div class="row justify-content-center">
+         <div class="col-md-10 text-center">
+             <h1 class="galery__title">Galeria Colegio graneros</h1>
+             <p class="galery__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id voluptatem, qui culpa ullam pariatur praesentium distinctio repellendus. Similique inventore minus deserunt animi mollitia minima, labore, quidem dolorum qui nobis facere?</p>
+         </div>
+        </div>
+        <div class="galery__images row justify-content-center gap-2">
+             <div class="col-sm-6 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-center">
+                 <button type="button" data-bs-toggle="modal" data-bs-target="#modalvideo" class="videoopen"><i class="fa-solid fa-video"></i></button>
+                 <p class="event__name">Dia del Alumno 2022</p>
+                 <p class="video__name">Thriller Profesores</p>
+             </div>
+             
+         </div>
+     </div>
+ </div>
+ 
+    <footer class="footer">
+        <p class="footer__text">Copyright &copy Fundación Colegio Graneros - Chile</p>
+    </footer>
+    
+    
+    <!-----------------------Modal Image------------------------->
+    <div class="modal fade" id="modalimage" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img class="imgmodal" src="../img/Docentes/img-1.jpg" alt="">
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+   
+   
+   <!-----------------------Modal Video------------------------->
+    <div class="modal fade" id="modalvideo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <iframe class="iframeVideo" src="https://www.youtube.com/embed/idh_hoYPB1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+   
+   
+    <script src="../js/jquery-3.6.0.js"></script>
+    <script src="../js/MooTools-Core-1.6.0.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/sweetalert2.all.min.js"></script>
+    <script src="../js/anime.min.js"></script>
+    <script src="../js/preloader.js"></script>
+    <script src="../js/main__query.js"></script>
+    <script src="../js/favicons.js"></script>
 </body>
 </html>

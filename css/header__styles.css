@@ -49,6 +49,11 @@ body{
     justify-content: center;
     font-weight: 100;
     font-size: 15px;
+    align-items: center
+}
+
+.object__text{
+    margin: 0;
 }
 
 .object__img{

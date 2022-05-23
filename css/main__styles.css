@@ -54,3 +54,21 @@
 #form-contact input{
     padding-left: 32px;
 }
+
+.name{
+    background-image: url(../img/svg_icons/name.svg);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+
+.email{
+    background-image: url(../img/svg_icons/email.svg);
+    background-repeat:no-repeat;
+    background-position: left;
+}
+
+.phone{
+    background-image: url(../img/svg_icons/phone.svg);
+    background-repeat:no-repeat;
+    background-position: left;
+}
